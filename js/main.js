@@ -1073,9 +1073,9 @@ const galleryData = [
 const crestData = [
   {
     src: 'crest/mymensingh-city-medal-combined.jpeg',
-    tag: "Mayor's Gold Medal • SSC 2018 (Front & Back)",
-    title: "Mayor's Student Merit Gold Medal",
-    desc: 'Commemorative gold medal presented by Md. Ekramul Haque Titu, Administrator of Mymensingh City Corporation (30 Nov 2018), honoring outstanding student merit and achieving perfect GPA 5.00 in the Secondary School Certificate examination. Collage shows both front medal face and official reverse municipal seal.',
+    tag: "Mayor's Medal • SSC 2018 (Front & Back)",
+    title: "Mayor's Student Merit Medal",
+    desc: 'Commemorative medal presented by Md. Ekramul Haque Titu, Administrator of Mymensingh City Corporation (30 Nov 2018), honoring outstanding student merit and achieving perfect GPA 5.00 in the Secondary School Certificate examination. Collage shows both front medal face and official reverse municipal seal.',
     issuer: 'Mymensingh City Corporation',
     year: '2018',
     category: 'medal ssc2018'
