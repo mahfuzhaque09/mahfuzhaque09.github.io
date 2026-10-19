@@ -175,7 +175,7 @@
             </div>
             <div class="hero-stat-divider"></div>
             <div class="hero-stat-pill">
-              <span class="hero-stat-num" data-count-target="7">0</span>
+              <span class="hero-stat-num" data-count-target="8">0</span>
               <span class="hero-stat-lbl">Projects</span>
             </div>
             <div class="hero-stat-divider"></div>
@@ -333,21 +333,23 @@
 
         <!-- Filter Controls -->
         <div class="filter-bar reveal delay-1" role="toolbar" aria-label="Filter publications by category">
-          <button class="filter-btn active" data-filter="all">All Contributions (7)</button>
-          <button class="filter-btn" data-filter="review">Under Review (1)</button>
+          <button class="filter-btn active" data-filter="all">All Contributions (8)</button>
+          <button class="filter-btn" data-filter="peer-reviewed">Peer-Reviewed (1)</button>
+          <button class="filter-btn" data-filter="thesis">Thesis (1)</button>
           <button class="filter-btn" data-filter="prep">In Preparation (3)</button>
           <button class="filter-btn" data-filter="funded">Funded & Collaborative (3)</button>
         </div>
 
         <div class="pub-list">
-          <!-- Item 1: Paratransit (Under Review) -->
-          <article class="glass-card pub-card pop-in reveal delay-1" data-category="review">
+          <!-- Item 1: Paratransit (PEER-REVIEWED) -->
+          <article class="glass-card pub-card pop-in reveal delay-1" data-category="peer-reviewed review">
             <div class="pub-header">
               <div class="pub-badges">
-                <span class="badge-status badge-review">Under Review</span>
-                <span class="pub-number mono-tag">[CSTP-D-26-01267]</span>
+                <span class="badge-status badge-peer-reviewed">PEER-REVIEWED</span>
+                <a href="https://doi.org/10.1016/j.cstp.2026.101998" target="_blank" rel="noopener noreferrer"
+                  class="pub-number mono-tag doi-tag" title="Open Article via DOI">DOI: 10.1016/j.cstp.2026.101998</a>
               </div>
-              <span class="mono-tag" style="color: var(--accent-cyan);">Case Studies on Transport Policy (2026)</span>
+              <span class="mono-tag" style="color: var(--accent-cyan);">Case Studies on Transport Policy (ELSEVIER)</span>
             </div>
 
             <h3 class="pub-title">
@@ -356,8 +358,14 @@
             </h3>
 
             <p class="pub-meta">
-              Hossain, M. I., Mazhar, M., <span class="pub-author-me">Haque, M. M.</span>, Hossain, H., Rahman, M. M., &
-              Rahman, A. (2026).
+              Hossain, M. I., Mazhar, M., <span class="pub-author-me">Haque, M. M.</span>, Hossain, H., Rahman, M. M., &amp;
+              Rahman, A. (2026). <span class="pub-doi-badge">DOI: <a href="https://doi.org/10.1016/j.cstp.2026.101998" target="_blank" rel="noopener noreferrer" class="doi-link">10.1016/j.cstp.2026.101998</a></span>
+            </p>
+
+            <p class="pub-desc">
+              Surveyed 104 suburban paratransit users on 28 service-quality attributes; applied sequential EFA–CFA (R, Python) to
+              identify a three-dimensional second-order service-quality construct, Mann–Whitney U tests to assess gender and income
+              heterogeneity, and importance–performance analysis (IPA) to generate a policy prioritisation framework.
             </p>
 
             <div class="pub-tech-stack">
@@ -372,14 +380,74 @@
             </div>
 
             <div class="pub-actions">
+              <a href="https://doi.org/10.1016/j.cstp.2026.101998" target="_blank" rel="noopener noreferrer"
+                class="btn btn-primary btn-sm">
+                <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                <span>View Article (DOI)</span>
+              </a>
               <button class="btn btn-secondary btn-sm"
-                data-copy="Hossain, M. I., Mazhar, M., Haque, M. M., Hossain, H., Rahman, M. M., & Rahman, A. (2026). Service Quality, User Heterogeneity, and Policy Priorities in Suburban Paratransit: A Case Study from Trishal, Bangladesh. Submitted to Case Studies on Transport Policy. [CSTP-D-26-01267]"
+                data-copy="Hossain, M. I., Mazhar, M., Haque, M. M., Hossain, H., Rahman, M. M., & Rahman, A. (2026). Service Quality, User Heterogeneity, and Policy Priorities in Suburban Paratransit: A Case Study from Trishal, Bangladesh. Case Studies on Transport Policy (ELSEVIER), DOI: 10.1016/j.cstp.2026.101998"
                 data-copy-label="Citation copied (APA format)!">
                 <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
                 </svg>
                 <span>Copy Citation (APA)</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Item 2: Thesis -->
+          <article class="glass-card pub-card pop-in reveal delay-1" data-category="thesis">
+            <div class="pub-header">
+              <div class="pub-badges">
+                <span class="badge-status badge-thesis">Thesis</span>
+                <span class="pub-number mono-tag">Undergraduate Thesis (BSS)</span>
+              </div>
+              <span class="mono-tag" style="color: var(--accent-purple);">Dept. of Local Government &amp; Urban Development, JKKNIU</span>
+            </div>
+
+            <h3 class="pub-title">
+              Travel-Behavior Change in Response to Urban Waterlogging in Bangladesh: An Integrated GIS–SEM–Machine
+              Learning Study of Mymensingh, with Dhaka as a Comparative Case
+            </h3>
+
+            <div class="pub-name-section">
+              <p class="pub-meta">
+                <span class="pub-meta-label">Author / Researcher:</span>
+                <span class="pub-author-me">Md. Mahfuz Haque</span> (Haque, M. M.)
+              </p>
+            </div>
+
+            <p class="pub-desc">
+              Investigating commuter mobility adaptations, travel route alterations, and modal shift dynamics under urban waterlogging
+              and seasonal flooding across Mymensingh, benchmarked against metropolitan Dhaka. Leverages an integrated analytical framework
+              coupling Geographic Information Systems (GIS), Structural Equation Modeling (SEM), and Machine Learning algorithms.
+            </p>
+
+            <div class="pub-tech-stack">
+              <span class="tech-pill">Integrated GIS</span>
+              <span class="tech-pill">Structural Equation Modeling (SEM)</span>
+              <span class="tech-pill">Machine Learning</span>
+              <span class="tech-pill">Travel-Behavior Dynamics</span>
+              <span class="tech-pill">Urban Waterlogging</span>
+              <span class="tech-pill">Flood Resilience</span>
+              <span class="tech-pill">Comparative Urban Analysis</span>
+              <span class="tech-pill">Mymensingh &amp; Dhaka</span>
+            </div>
+
+            <div class="pub-actions">
+              <button class="btn btn-secondary btn-sm"
+                data-copy="Haque, M. M. (2026). Travel-Behavior Change in Response to Urban Waterlogging in Bangladesh: An Integrated GIS–SEM–Machine Learning Study of Mymensingh, with Dhaka as a Comparative Case. Undergraduate Thesis, Department of Local Government & Urban Development, Jatiya Kabi Kazi Nazrul Islam University (JKKNIU)."
+                data-copy-label="Citation copied!">
+                <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+                </svg>
+                <span>Copy Citation</span>
               </button>
             </div>
           </article>
@@ -854,16 +922,15 @@
             <div class="timeline-marker"></div>
             <div class="glass-card timeline-content">
               <div class="timeline-head">
-                <h3 class="timeline-role">Bachelor of Social Science (Honors) in Local Govt. & Urban Development</h3>
-                <span class="timeline-period">Dec 2023 – Dec 2026 (Expected)</span>
+                <h3 class="timeline-role">Bachelor of Social Science in Local Government and Urban Development</h3>
+                <span class="timeline-period">Dec 2023 – Dec 2026 (4th Year, 2nd Semester)</span>
               </div>
               <div class="timeline-org">Jatiya Kabi Kazi Nazrul Islam University (JKKNIU), Trishal, Bangladesh</div>
               <ul class="timeline-bullets">
-                <li><strong>Current CGPA: 3.51 / 4.00</strong> (4th Year, 2nd Semester).</li>
-                <li><strong>Honors & Awards:</strong> Awarded prestigious Central University Merit Scholarship in both
-                  2024 and 2025.</li>
-                <li><strong>Core Coursework:</strong> Urban Planning & Development, Environmental Design, Public Health,
-                  Local Governance, Law & Policy, Spatial Analytics.</li>
+                <li><strong>Cumulative GPA:</strong> 3.51 / 4.00 (Current).</li>
+                <li><strong>Thesis:</strong> Travel-Behavior Change in Response to Urban Waterlogging in Bangladesh: An Integrated GIS–SEM–Machine Learning Study of Mymensingh, with Dhaka as a Comparative Case.</li>
+                <li><strong>Relevant Coursework:</strong> Urban Planning &amp; Development; Environmental Design; Public Health; Local Governance, Law and Policy; Spatial Analytics.</li>
+                <li><strong>Honors &amp; Awards:</strong> University (Central) Scholarship (2024, 2025).</li>
               </ul>
             </div>
           </div>
